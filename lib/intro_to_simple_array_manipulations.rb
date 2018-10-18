@@ -14,6 +14,9 @@ end
 def pop_with_args(chars_in_game_of_thrones)
   @chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
   @chars_in_game_of_thrones.pop(2)
-end 
+end
 
-def 
+def using_shift(my_favorite_cities)
+  @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+  @my_favorite_cities.shift
+end 
