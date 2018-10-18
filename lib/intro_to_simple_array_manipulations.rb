@@ -31,3 +31,9 @@ def using_concat(my_favorite_things, more_favs)
   more_favs = ["dogs with hats", "puppies with hats"]
  @my_favorite_things.concat(more_favs)
 end
+
+def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
+  @list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
+  @another_esoteric_language = "Malbolge"
+  @list_of_esoteric_programming_languages.insert(4, @another_esoteric_language)
+end
