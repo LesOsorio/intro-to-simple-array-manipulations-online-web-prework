@@ -7,9 +7,11 @@ def using_unshift(array,string)
 end
 
 def using_pop(fav_foods)
-  fav_foods = ["chicken strips", "waffles", "french fries"]
+  fav_foods = ["chicken strips", "waffles", "french fries", "cold pizza"]
   fav_foods.pop
 end
 
-def pop_with_args(array,string)
-  array.pop
+def pop_with_args(not_fav_foods)
+  not_fav_foods = ["tomatoes", "onions", "telapia", "canned beans","pineapple pizza"]
+  not_fav_foods.pop(2)
+end 
